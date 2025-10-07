@@ -9,4 +9,5 @@ Hari ini, Rabu 08 Oktober 2025 (sesuaikan dengan hari dan tanggal kalian kuliah)
   <li>membuat struktur form untuk section contact</li>
   <li>membuat styling untuk selector ID #about</li>
   <li>membuat styling untuk selector ID #about elemen h2</li>
+  <li>membuat styling untuk selector ID #about elemen p</li>
 </ol>
