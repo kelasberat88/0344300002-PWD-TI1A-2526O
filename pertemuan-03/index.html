@@ -33,7 +33,20 @@
     </section>
     <section id="contact">
       <h2>Kontak Kami</h2>
-      <p>contoh form</p>
+      <form action="" method="get">
+        
+        <label for="txtNama">Nama:</label>
+        <input type="text" id="txtNama" name="txtNama" placeholder="Isikan Nama" required autocomplete="name">
+        
+        <label for="txtEmail">Email:</label>
+        <input type="email" id="txtEmail" name="txtEmail" placeholder="Isikan Email" required autocomplete="email">
+        
+        <label for="txtPesan">Pesan:</label>
+        <textarea rows="4" id="txtPesan" name="txtPesan" placeholder="Isikan Pesan" required></textarea>
+        
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
+      </form>
     </section>
   </main>
   <footer>
