@@ -1,11 +1,9 @@
 # pertemuan-03
 
-NIM : 2511500017<br>
-Nama : Nikolas Kalim<br><br>
+NIM : 2511500070<br>
+Nama : Raja Nainggolan<br>
 
-Hari ini, Rabu 08 Oktober 2025, saya belajar:
+Hari ini, Kamis 09 Oktober 2025, saya belajar:
 <ol>
-  <li>menggunakan file emmet.html pertemuan-02 untuk file index.html pertemuan-03</li>
-  <li>membuat struktur form untuk section contact</li>
-  <li>styling #about</li>
+  <li>copy isi file emmet.html (pertemuan-02) ke index.html (pertemuan-03)</li>
 </ol>
