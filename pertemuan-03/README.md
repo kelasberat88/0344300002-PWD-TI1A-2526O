@@ -1,10 +1,9 @@
 # pertemuan-03
 
-NIM : 2511500070<br>
-Nama : Raja Nainggolan<br>
+NIM : 2522500025<br>
+Nama : Diony Laurenza<br>
 
-Hari ini, Kamis 09 Oktober 2025, saya belajar:
+Hari ini, Kamis 09 Oktober 2025, saya mempelajari:
 <ol>
-  <li>copy isi file emmet.html (pertemuan-02) ke index.html (pertemuan-03)</li>
-  <li>buat form dan input color</li>
+  <li>copy-paste isi emmet.html (pertemuan-02) ke index.html (pertemuan-03)</li>
 </ol>
