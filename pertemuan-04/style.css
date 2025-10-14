@@ -10,6 +10,28 @@ body {
   line-height: 1.5;
 }
 
+header {
+  background: #003366;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+header li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 12px;
+}
+
+#home,
 #about,
 #contact {
   background-color: #ffffff;
@@ -20,6 +42,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+#home h2,
 #about h2,
 #contact h2 {
   color: #003366;
@@ -27,6 +50,10 @@ body {
   padding-bottom: 6px;
   margin-top: 0;
   margin-bottom: 16px;
+}
+
+#home p {
+  text-align: justify;
 }
 
 #about p,
