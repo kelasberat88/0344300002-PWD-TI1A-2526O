@@ -4,13 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Judul Halaman Hai</title>
+  <title>Judul Halaman</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <h1>Ini Header Kua</h1>
+    <h1>Ini Header</h1>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+      &#9776;
+    </button>
     <nav>
       <ul>
         <li><a href="#home">Beranda</a></li>
@@ -54,7 +57,9 @@
 
         <label for="txtPesan"><span>Pesan Anda:</span>
           <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+          <small id="charCount">0/200 karakter</small>
         </label>
+
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
@@ -65,6 +70,7 @@
   <footer>
     <p>&copy; 2025 Yohanes Setiawan Japriadi [0344300002]</p>
   </footer>
-</body>
 
+  <script src="script.js"></script>
+</body>
 </html>
