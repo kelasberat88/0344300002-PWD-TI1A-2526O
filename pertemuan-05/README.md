@@ -9,4 +9,5 @@ Hari ini, Rabu 22 Oktober 2025, saya mempelajari:
   <li>tombol hamburger</li>
   <li>styling utk class menu-toggle</li>
   <li>styling utk class menu-toggle mobile</li>
+  <li>styling utk elemen nav</li>
 </ol>
