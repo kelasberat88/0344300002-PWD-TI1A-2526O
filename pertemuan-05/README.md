@@ -10,4 +10,5 @@ Hari ini, Kamis 23 Oktober 2025, saya mempelajari:
   <li>styling untuk class togel</li>
   <li>styling untuk class togel mobile</li>
   <li>styling elemen nav mobile</li>
+  <li>styling nav class active</li>
 </ol>
