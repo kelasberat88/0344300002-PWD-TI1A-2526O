@@ -1,10 +1,10 @@
 # pertemuan-06
 
-hari ini, tanggal 29 oktober 2025, saya bernama hadi
-nim: 2511500010
-
-belajar:
+hari ini, kamis 30 Oktober 2025,
+saya Chelsea<br>
+NIM: 2511500022<br>
+<br>
+belajar:<br>
 <ol>
-<li>hello.php</li>
-<li>index.php</li>
+  <li>echo di hello.php</li>
 </ol>
