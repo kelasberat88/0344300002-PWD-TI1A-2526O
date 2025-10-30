@@ -27,11 +27,19 @@
     <section id="home">
       <h2>Selamat Datang</h2>
       <p>Ini contoh paragraf HTML.</p>
+      <?php
+      echo "Halo Dunia!<br>";
+      echo "Nama Saya Nayaka Gibrani Ekuador";
+      ?>
     </section>
 
     <section id="about">
+      <?php
+        $NIM = "0344300002";
+        $nim = "2511500022";
+      ?>
       <h2>Tentang Saya</h2>
-      <p><strong>NIM:</strong> 0344300002</p>
+      <p><strong>NIM:</strong> <?php echo $nim ?></p>
       <p><strong>Nama Lengkap:</strong> Yohanes Setiawan Japriadi &#128526;</p>
       <p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
       <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
