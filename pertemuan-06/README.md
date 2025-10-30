@@ -7,4 +7,5 @@ Nama: M Izan<br>
 belajar sebagai berikut:
 <ol>
   <li>skrip php hello world</li>
+  <li>copy index.html, style.css, script.js (pertemuan-05)</li>
 </ol>
