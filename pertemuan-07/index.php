@@ -26,29 +26,31 @@
   <main>
     <section id="home">
       <h2>Selamat Datang</h2>
-      <p>Ini contoh paragraf HTML.</p>
       <?php
-      echo "Halo Dunia!<br>";
-      echo "Nama Saya Marijan";
+      echo "halo dunia!<br>";
+      echo "nama saya hadi";
       ?>
+      <p>Ini contoh paragraf HTML.</p>
     </section>
 
     <section id="about">
       <?php
-        $nim = 2511500040;
-        $NIM = '0344300002';
-        $Nim = "";
-        $nama = "Al'maidah cantik";
-        $nama = 'Al\'maidah cantik';
+      $nim = 2511500010;
+      $NIM = '0344300002';
+      $nama = "Say'yid Abdullah";
+      $Nama = 'Al\'kautar Benyamin';
       ?>
       <h2>Tentang Saya</h2>
-      <p>
-        <strong>NIM:</strong> 
+      <p><strong>NIM:</strong>
         <?php
-          echo $NIM;
+        echo $NIM;
         ?>
       </p>
-      <p><strong>Nama Lengkap:</strong> <?php echo $nama; ?> &#128526;</p>
+      <p><strong>Nama Lengkap:</strong>
+        <?php
+        echo $Nama;
+        ?> &#128526;
+      </p>
       <p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
       <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
       <p><strong>Hobi:</strong> Memasak, coding, dan bermain musik &#127926;</p>
@@ -89,4 +91,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
