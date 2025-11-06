@@ -11,4 +11,6 @@ belajar:
 <li>5x5 variabel matakuliah</li>
 <li>5x5 variabel proses dan hasil</li>
 <li>memindahkan section#ipk di posisi yang diinginkan</li>
+<li>buat skrip menghitung nilai akhir 1 sampai 5</li>
+<li>buat kondisi kehadiran di bawah 70, grade = E</li>
 </ol>

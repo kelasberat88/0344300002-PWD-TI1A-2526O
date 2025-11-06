@@ -107,6 +107,22 @@
       $grade3 = "";
       $grade4 = "";
       $grade5 = "";
+      #Nilai kehadiran < 70, otomatis Grade = E.
+      if ($nilaiHadir1 < 70):
+        $grade1 = "E";
+      endif;
+      if ($nilaiHadir2 < 70):
+        $grade2 = "E";
+      endif;
+      if ($nilaiHadir3 < 70):
+        $grade3 = "E";
+      endif;
+      if ($nilaiHadir4 < 70):
+        $grade4 = "E";
+      endif;
+      if ($nilaiHadir5 < 70):
+        $grade5 = "E";
+      endif;
       $mutu1 = "";
       $mutu2 = "";
       $mutu3 = "";
