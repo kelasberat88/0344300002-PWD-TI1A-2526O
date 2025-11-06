@@ -9,4 +9,5 @@ Hari ini, Kamis 06.NOV.2025 kami belajar:<br>
   <li>method dan action index.php</li>
   <li>buat file proses.php</li>
   <li>ambil nilai input dari form ke proses.php</li>
+  <li>menyimpan nilai dari input ke variabel</li>
 </ol>
