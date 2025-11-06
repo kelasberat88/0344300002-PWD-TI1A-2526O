@@ -39,6 +39,9 @@
       $NIM = '0344300002';
       $nama = "Say'yid Abdullah";
       $Nama = 'Al\'kautar Benyamin';
+      $tempatlahir = "Jebus";
+      $tanggallahir = "13 April 2004";
+      $hobi = "Bergulat, Sumo, Makan, Pajo";
       ?>
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong>
@@ -51,9 +54,9 @@
         echo $Nama;
         ?> &#128526;
       </p>
-      <p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
-      <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
-      <p><strong>Hobi:</strong> Memasak, coding, dan bermain musik &#127926;</p>
+      <p><strong>Tempat Lahir:</strong> <?php echo $tempatlahir ?></p>
+      <p><strong>Tanggal Lahir:</strong> <?php echo $tanggallahir ?></p>
+      <p><strong>Hobi:</strong> <?php echo $hobi ?> &#127926;</p>
       <p><strong>Pasangan:</strong> Belum ada &hearts;</p>
       <p><strong>Pekerjaan:</strong> Dosen di ISB Atma Luhur &copy; 2025</p>
       <p><strong>Nama Orang Tua:</strong> Bapak Setiawan dan Ibu Maria</p>
