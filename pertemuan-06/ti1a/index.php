@@ -66,22 +66,22 @@
 
     <section id="ipk">
       <?php
-      $namaMatkul1 = "";
+      $namaMatkul1 = "Algoritma dan Struktur Data";
       $namaMatkul2 = "";
       $namaMatkul3 = "";
       $namaMatkul4 = "";
       $namaMatkul5 = "";
-      $sksMatkul1 = "";
+      $sksMatkul1 = 4;
       $sksMatkul2 = "";
       $sksMatkul3 = "";
       $sksMatkul4 = "";
       $sksMatkul5 = "";
-      $nilaiHadir1 = "";
+      $nilaiHadir1 = 90;
       $nilaiHadir2 = "";
       $nilaiHadir3 = "";
       $nilaiHadir4 = "";
       $nilaiHadir5 = "";
-      $nilaiTugas1 = "";
+      $nilaiTugas1 = 60;
       $nilaiTugas2 = "";
       $nilaiTugas3 = "";
       $nilaiTugas4 = "";
@@ -102,11 +102,23 @@
       $nilaiAkhir3 = (0.1 * $nilaiHadir3) + (0.2 * $nilaiTugas3) + (0.3 * $nilaiUTS3) + (0.4 * $nilaiUAS3);
       $nilaiAkhir4 = (0.1 * $nilaiHadir4) + (0.2 * $nilaiTugas4) + (0.3 * $nilaiUTS4) + (0.4 * $nilaiUAS4);
       $nilaiAkhir5 = (0.1 * $nilaiHadir5) + (0.2 * $nilaiTugas5) + (0.3 * $nilaiUTS5) + (0.4 * $nilaiUAS5);
-      $grade1 = "";
-      $grade2 = "";
-      $grade3 = "";
-      $grade4 = "";
-      $grade5 = "";
+      
+      if (($nilaiAkhir1>=91) && ($nilaiAkhir1<=100)):
+        $grade1 = "A";
+        $mutu1 = 4;
+      elseif (($nilaiAkhir1>=81) && ($nilaiAkhir1<=90)):
+        $grade1 = "A-";
+        $mutu1 = 3.7;
+      endif;
+
+      if (($nilaiAkhir2 >= 91) && ($nilaiAkhir2 <= 100)):
+        $grade2 = "A";
+        $mutu2 = 4;
+      elseif (($nilaiAkhir2 >= 81) && ($nilaiAkhir2 <= 90)):
+        $grade2 = "A-";
+        $mutu2 = 3.7;
+      endif;
+      
       #Nilai kehadiran < 70, otomatis Grade = E.
       if ($nilaiHadir1 < 70):
         $grade1 = "E";
@@ -124,11 +136,7 @@
         $grade5 = "E";
       endif;
 
-      $mutu1 = "";
-      $mutu2 = "";
-      $mutu3 = "";
-      $mutu4 = "";
-      $mutu5 = "";
+
 
       #Bobot = angkaMutu * sksMatkul
       
@@ -289,9 +297,20 @@
       $IPK = $totalBobot / $totalSKS;
 
       ?>
-      <h2>Tentang Saya</h2>
+      <h2>Nilai Saya</h2>
 
-      <p><strong>Tempat Lahir:</strong> <?php echo $tempatlahir ?></p>
+      <p><strong>Nama Matakuliah ke-1:</strong> <?php echo $namaMatkul1 ?></p>
+      <p><strong>SKS:</strong> <?php echo $sksMatkul1 ?></p>
+      <p><strong>Kehadiran:</strong> <?php echo $nilaiHadir1 ?></p>
+      <p><strong>Tugas:</strong> <?php echo $nilaiTugas1 ?></p>
+      
+UTS : 80 => $nilaiUTS1
+UAS : 70 => $nilaiUAS1
+Nilai Akhir : 73 => $nilaiAkhir1
+Grade : B => $grade1
+Angka Mutu : 3.00 => $mutu1
+Bobot : 12 => $bobot1
+Status : Lulus => $status1
 
     </section>
 
