@@ -286,7 +286,7 @@
 
       #IPK = totalBobot / totalSKS
 
-      $IPK = "";
+      $IPK = $totalBobot / $totalSKS;
 
       ?>
       <h2>Tentang Saya</h2>
