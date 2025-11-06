@@ -123,17 +123,38 @@
       if ($nilaiHadir5 < 70):
         $grade5 = "E";
       endif;
+
       $mutu1 = "";
       $mutu2 = "";
       $mutu3 = "";
       $mutu4 = "";
       $mutu5 = "";
+      #Bobot = angkaMutu * sksMatkul
+      
       $bobot1 = "";
       $bobot2 = "";
       $bobot3 = "";
       $bobot4 = "";
       $bobot5 = "";
-      $status1 = "";
+      /*
+      Grade A, A-, B+, B, B-, C+, C, C- maka Status: LULUS
+      Grade D, E maka Status: GAGAL
+      */
+      switch ($grade1):
+        case "A": $status1 = "LULUS"; break;
+        case "A-": $status1 = "LULUS"; break;
+        case "B+": $status1 = "LULUS"; break;
+        case "B": $status1 = "LULUS"; break;
+        case "B-": $status1 = "LULUS"; break;
+        case "C+": $status1 = "LULUS"; break;
+        case "C": $status1 = "LULUS"; break;
+        case "C-": $status1 = "LULUS"; break;
+        case "D":
+        case "E":
+          $status1 = "GAGAL";
+          break;
+      endswitch;
+      
       $status2 = "";
       $status3 = "";
       $status4 = "";
