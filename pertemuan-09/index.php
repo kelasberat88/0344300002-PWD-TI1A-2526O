@@ -76,6 +76,26 @@ endif;
           <input type="text" id="txtHobi" name="txtHobi" placeholder="Masukkan Hobi" required>
         </label>
 
+        <label for="txtPasangan"><span>Pasangan:</span>
+          <input type="text" id="txtPasangan" name="txtPasangan" placeholder="Masukkan Pasangan" required>
+        </label>
+
+        <label for="txtKerja"><span>Pekerjaan:</span>
+          <input type="text" id="txtKerja" name="txtKerja" placeholder="Masukkan Pekerjaan" required>
+        </label>
+
+        <label for="txtNmOrtu"><span>Nama Orang Tua:</span>
+          <input type="text" id="txtNmOrtu" name="txtNmOrtu" placeholder="Masukkan Nama Orang Tua" required>
+        </label>
+
+        <label for="txtNmKakak"><span>Nama Kakak:</span>
+          <input type="text" id="txtNmKakak" name="txtNmKakak" placeholder="Masukkan Nama Kakak" required>
+        </label>
+
+         <label for="txtNmAdik"><span>Nama Adik:</span>
+          <input type="text" id="txtNmAdik" name="txtNmAdik" placeholder="Masukkan Nama Adik" required>
+        </label>
+
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
