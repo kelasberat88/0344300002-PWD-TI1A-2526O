@@ -17,4 +17,6 @@
   <li>buat session cukup 1 untuk biodata (tidak perlu 10)</li>
   <li>modif penggunaan session di index.php</li>
   <li>hapus baris 19-67 di index.php</li>
+  <li>penggunaan session biodata di index.php</li>
+  <li>penggunaan session biodata di index.php selesai</li>
 </ol>
