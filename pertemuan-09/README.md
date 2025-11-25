@@ -12,4 +12,5 @@
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
   <li>upload bahan pertemuan-09 (dengan jawaban uts)</li>
+  <li>ubah setiap data pada post ke array associative</li>
 </ol>
