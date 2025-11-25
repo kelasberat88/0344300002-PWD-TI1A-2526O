@@ -153,32 +153,17 @@ endif;
     </section>
 
     <section id="about">
-      <?php
-      $nim = 2511500010;
-      $NIM = '0344300002';
-      $nama = "Say'yid Abdullah";
-      $Nama = 'Al\'kautar Benyamin';
-      $tempat = "Jebus";
-      ?>
       <h2>Tentang Saya</h2>
-      <p><strong>NIM:</strong>
-        <?php
-        echo $NIM;
-        ?>
-      </p>
-      <p><strong>Nama Lengkap:</strong>
-        <?php
-        echo $Nama;
-        ?> &#128526;
-      </p>
-      <p><strong>Tempat Lahir:</strong> <?php echo $tempat; ?></p>
-      <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
-      <p><strong>Hobi:</strong> Memasak, coding, dan bermain musik &#127926;</p>
-      <p><strong>Pasangan:</strong> Belum ada &hearts;</p>
-      <p><strong>Pekerjaan:</strong> Dosen di ISB Atma Luhur &copy; 2025</p>
-      <p><strong>Nama Orang Tua:</strong> Bapak Setiawan dan Ibu Maria</p>
-      <p><strong>Nama Kakak:</strong> Antonius Setiawan</p>
-      <p><strong>Nama Adik:</strong> <?php echo $sespesan ?></p>
+      <p><strong>NIM:</strong> <?= $txtNim ?></p>
+      <p><strong>Nama Lengkap:</strong> <?= $txtNmLengkap ?> &#128526;</p>
+      <p><strong>Tempat Lahir:</strong> <?= $txtT4Lhr ?></p>
+      <p><strong>Tanggal Lahir:</strong> <?= $txtTglLhr ?></p>
+      <p><strong>Hobi:</strong> <?= $txtHobi ?> &#127926;</p>
+      <p><strong>Pasangan:</strong> <?= $txtPasangan ?> &hearts;</p>
+      <p><strong>Pekerjaan:</strong> <?= $txtKerja ?> &copy; 2025</p>
+      <p><strong>Nama Orang Tua:</strong> <?= $txtNmOrtu ?></p>
+      <p><strong>Nama Kakak:</strong> <?= $txtNmKakak ?></p>
+      <p><strong>Nama Adik:</strong> <?= $txtNmAdik ?></p>
     </section>
 
     <section id="contact">
@@ -197,7 +182,6 @@ endif;
           <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
           <small id="charCount">0/200 karakter</small>
         </label>
-
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
