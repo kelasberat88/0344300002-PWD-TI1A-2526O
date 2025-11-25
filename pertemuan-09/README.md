@@ -15,4 +15,5 @@
   <li>ubah setiap data pada post ke array associative</li>
   <li>ubah setiap data pada post ke array associative selesai</li>
   <li>buat session cukup 1 untuk biodata (tidak perlu 10)</li>
+  <li>modif penggunaan session di index.php</li>
 </ol>
