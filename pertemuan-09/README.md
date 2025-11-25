@@ -9,4 +9,5 @@
   <li>session form biodata beres</li>
   <li>tangkap session dari file proses</li>
   <li>tangkap session dari file proses selesai</li>
+  <li>echo session ke nilai label section contact</li>
 </ol>
