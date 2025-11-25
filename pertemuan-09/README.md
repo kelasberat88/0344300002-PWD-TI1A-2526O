@@ -8,4 +8,5 @@
   <li>tangkap post dan buat session untuk form biodata</li>
   <li>session form biodata beres</li>
   <li>tangkap session dari file proses</li>
+  <li>tangkap session dari file proses selesai</li>
 </ol>
