@@ -20,4 +20,5 @@
   <li>penggunaan session biodata di index.php</li>
   <li>penggunaan session biodata di index.php selesai</li>
   <li>mulai looping untuk menampilkan session biodata</li>
+  <li>selesai looping untuk menampilkan session biodata</li>
 </ol>
