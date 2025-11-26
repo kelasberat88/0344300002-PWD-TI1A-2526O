@@ -22,4 +22,5 @@
   <li>mulai looping untuk menampilkan session biodata</li>
   <li>selesai looping untuk menampilkan session biodata</li>
   <li>hapus kode lama untuk menampilkan section#about</li>
+  <li>membuat file fungsi.php</li>
 </ol>

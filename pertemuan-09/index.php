@@ -158,9 +158,7 @@ endif;
         <p><strong>Email :</strong> <?php echo $sesemail ?></p>
         <p><strong>Pesan :</strong> <?php echo $sespesan ?></p>
       <?php endif; ?>
-
-
-
+      
     </section>
   </main>
 
