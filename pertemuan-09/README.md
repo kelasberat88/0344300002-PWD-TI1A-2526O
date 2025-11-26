@@ -26,5 +26,6 @@
   <li>membuat fungsi bersihkan input dan isian tidak kosong</li>
   <li>membuat fungsi pengaturan format tanggal</li>
   <li>membuat fungsi render untuk menampilkan biodata</li>
-  <li>menggunakan fungsi di section#about</li>
+  <li>menggunakan fungsi menampilkan biodata di di section#about</li>
+  <li>menggunakan require_once fungsi.php</li>
 </ol>
