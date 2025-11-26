@@ -24,4 +24,5 @@
   <li>hapus kode lama untuk menampilkan section#about</li>
   <li>membuat file fungsi.php</li>
   <li>membuat fungsi bersihkan input dan isian tidak kosong</li>
+  <li>membuat fungsi pengaturan format tanggal</li>
 </ol>
