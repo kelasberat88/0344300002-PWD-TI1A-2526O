@@ -23,4 +23,5 @@
   <li>selesai looping untuk menampilkan session biodata</li>
   <li>hapus kode lama untuk menampilkan section#about</li>
   <li>membuat file fungsi.php</li>
+  <li>membuat fungsi bersihkan input dan isian tidak kosong</li>
 </ol>
