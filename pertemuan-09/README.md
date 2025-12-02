@@ -30,4 +30,5 @@
   <li>menggunakan require_once fungsi.php</li>
   <li>mengubah proses untuk POST form contact</li>
   <li>mengubah proses untuk session form contact</li>
+  <li>menghapus session lama form contact di index.php</li>
 </ol>
