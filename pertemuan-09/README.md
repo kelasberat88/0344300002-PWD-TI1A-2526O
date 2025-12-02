@@ -31,5 +31,6 @@
   <li>mengubah proses untuk POST form contact</li>
   <li>mengubah proses untuk session form contact</li>
   <li>menghapus session lama form contact di index.php</li>
-  <li>membuat penangkan sesi contact dan array config</li>
+  <li>membuat penangkap sesi contact dan array config</li>
+  <li>menampilkan keluaran session contact dengan fungsi tampilkanBiodata</li>
 </ol>
