@@ -29,4 +29,5 @@
   <li>menggunakan fungsi menampilkan biodata di di section#about</li>
   <li>menggunakan require_once fungsi.php</li>
   <li>mengubah proses untuk POST form contact</li>
+  <li>mengubah proses untuk session form contact</li>
 </ol>
