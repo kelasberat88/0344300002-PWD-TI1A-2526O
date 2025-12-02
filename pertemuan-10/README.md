@@ -5,4 +5,5 @@ saya <b>yohanes setiawan japriadi</b>, pada pertemuan-10 saya belajar:<br>
   <li>menghapus index.html dan membuat koneksi.php</li>
   <li>buat database db_pwd2025 menggunakan PHPMyAdmin</li>
   <li>membuat tabel tbl_tamu menggunakan query di PhpMyAdmin</li>
+  <li>membuat kode untuk read.php membaca data dari tbl_tamu</li>
 </ol>
