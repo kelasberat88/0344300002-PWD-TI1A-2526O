@@ -9,4 +9,5 @@ saya <b>yohanes setiawan japriadi</b>, pada pertemuan-10 saya belajar:<br>
   <li>insert data ke tabel tbl_tamu sebanyak 3 record</li>
   <li>akses ulang read.php</li>
   <li>perangkap error query read.php</li>
+  <li>duplikat read.php, rename menjadi read_inc.php</li>
 </ol>
