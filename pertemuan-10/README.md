@@ -10,4 +10,6 @@ saya <b>yohanes setiawan japriadi</b>, pada pertemuan-10 saya belajar:<br>
   <li>akses ulang read.php</li>
   <li>perangkap error query read.php</li>
   <li>duplikat read.php, rename menjadi read_inc.php</li>
+  <li>modif struktur kode read_inc.php agar membaca MySQL</li>
+  <li>ganti cara menampilkan contact ke include read_inc.php</li>
 </ol>
