@@ -1,6 +1,5 @@
 <?php
 require 'koneksi.php';
-require 'fungsi.php';
 
 $fieldContact = [
   "nama" => ["label" => "Nama:", "suffix" => ""],
@@ -12,10 +11,10 @@ $sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
 $q = mysqli_query($conn, $sql);
 if (!$q) {
   echo "<p>Gagal membaca data tamu: " . htmlspecialchars(mysqli_error($conn)) . "</p>";
-} elseif (mysqli_num_rows($result) === 0) {
+} elseif (mysqli_num_rows($q) === 0) {
   echo "<p>Belum ada data tamu yang tersimpan.</p>";
 } else {
-  while ($row = mysqli_fetch_assoc($result)) {
+  while ($row = mysqli_fetch_assoc($q)) {
     $arrContact = [
       "nama"  => $row["cnama"]  ?? "",
       "email" => $row["cemail"] ?? "",
